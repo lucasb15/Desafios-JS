@@ -16,7 +16,6 @@ if(jogar) {
     
     // Verifica se jogador fez uma jogada esperada
     if(numeroJogador == "1" || numeroJogador == "2") {
-s
       // Verifica se PC1 e PC2 fizeram jogadas iguais e diferentes do Jogador
       // Caso aconteça o Jogador ganha
       if(numeroPC1 == numeroPC2 && numeroPC1 != numeroJogador) {
